@@ -1,0 +1,4 @@
+<form *ngFor="let user of userList">
+  <input type="text" name="txtName" [(ngModel)]="user.name" />
+  <input type="text" name="txtEmail" [(ngModel)]="user.email" />
+</form>
