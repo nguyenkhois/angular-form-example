@@ -11,7 +11,7 @@ export class User {
 export class UserList {
     private users: User[];
 
-    constructor(inputUsers) {
-        this.users = inputUsers;
+    constructor(inputUserList) {
+        this.users = inputUserList;
     }
 }
